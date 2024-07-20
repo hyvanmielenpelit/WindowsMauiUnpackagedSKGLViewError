@@ -5,4 +5,4 @@ Reproduction for SKGLView crash on Windows in .NET MAUI when built unpackaged
 2. Start the app by clicking on the exe in bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WindowsMauiUnpackagedSKGLViewError.exe
 3. App crashes in an exception logged by Event Viewer (in Windows Logs\Application)
 4. If you remove SKGLView from MainPage.xaml, and repeat the process from (1), the app starts successfully
-5. If you keep the SKGLView build a packaged version by omitting '-p:WindowsPackageType=None' and the app starts from Visual Studio as normal.
+5. If you keep the SKGLView and build a packaged version by omitting '-p:WindowsPackageType=None' and the app starts from Visual Studio as normal.
