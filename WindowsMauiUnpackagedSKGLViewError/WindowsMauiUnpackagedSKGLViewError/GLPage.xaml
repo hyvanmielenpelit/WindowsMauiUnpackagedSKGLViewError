@@ -5,7 +5,7 @@
              x:Class="WindowsMauiUnpackagedSKGLViewError.GLPage"
              Title="GLPage">
     <VerticalStackLayout>
-        <skia:SKGLView/>
+        <skia:SKGLView WidthRequest="500" HeightRequest="500" />
         <Label Text="Page title"/>
         <Label 
             Text="Welcome to GLPage!"
