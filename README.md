@@ -5,7 +5,7 @@ Reproduction for SKGLView crash on Windows in .NET MAUI when built unpackaged
 
 1. Delete `bin` and `obj` folders.
 2. Change WindowsPackageType to `None` in the .csproj file.
-3. Build using 'dotnet build -f:net9.0-windows10.0.19041.0 -c:Debug --no-incremental'
+3. Build using `dotnet build -f:net9.0-windows10.0.19041.0 -c:Debug`
 4. Start the app by clicking on the exe in bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WindowsMauiUnpackagedSKGLViewError.exe
 5. App opens as a default MAUI App
 6. Press Click me button. It tries to open now also GLPage with SKGLView
@@ -16,7 +16,7 @@ Reproduction for SKGLView crash on Windows in .NET MAUI when built unpackaged
 
 1. Delete `bin` and `obj` folders.
 2. Change WindowsPackageType to `MSIX` in the .csproj file.
-3. Build using 'dotnet build -f:net9.0-windows10.0.19041.0 -c:Debug --no-incremental'
+3. Build using `dotnet build -f:net9.0-windows10.0.19041.0 -c:Debug`
 4. Start the app from Visual Studio using **Windows Packaged MSIX** launch profile.
 5. App opens as a default MAUI App
 6. Press Click me button. It tries to open now also GLPage with SKGLView
